@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>EMPRESA LINEA ALFTA</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Botón menú hamburguesa -->
+      <button class="hamburguesa" onclick="toggleMenu()">☰</button>
+
+      <div class="logo">
+        <img src="#" alt="falta foto" />
+        <h1>EMPRESA X</h1>
+      </div>
+
+      <div>
+        <nav id="nav">
+          <a href="#">Inicio</a>
+          <a href="#">Nosotros</a>
+          <a href="#">Servicios</a>
+          <a href="#">Contacto</a>
+        </nav>
+      </div>
+
+      <div class="interaccion_botones">
+        <div class="buscadores">
+          <input type="text" placeholder="buscar....." />
+        </div>
+        <button class="botones registro">Registrarse</button>
+        <button class="botones sesion">Inicio sesion</button>
+      </div>
+    </header>
+
+    <main>
+      <h1>QUE ES ESTA PAGINA</h1>
+      <p>
+        Quieres que lo convirtamos en un componente reutilizable (por ejemplo,
+        en un proyecto más grande)? ¿O deseas que el menú sándwich tenga
+        animación tambi
+      </p>
+    </main>
+
+    <footer>
+      <p>hola espero que le haya gustado</p>
+      <div>
+        <a href="#"> politica de uso</a> / <a href="#">EMPRESA Y </a> /
+        <a href="#"> NUMERO 4 </a> /
+        <a href="#"> BANCO </a>
+      </div>
+    </footer>
+    <script>
+      function toggleMenu() {
+        const nav = document.getElementById("nav");
+        nav.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
